@@ -38,8 +38,8 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'Juli blog',
+    subtitle: 'Subtitulo del blog',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -47,20 +47,16 @@ const siteConfig: SiteConfig = {
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
         },
         {
             text: 'Blog',
             href: '/blog'
         },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Etiquetas',
+            href: '/etiquetas'
         }
     ],
     footerNavLinks: [
@@ -69,16 +65,12 @@ const siteConfig: SiteConfig = {
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contacto',
             href: '/contact'
         },
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
