@@ -38,7 +38,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Juli blog',
+    title: 'Tejiendo Inclusión',
     subtitle: 'Subtitulo del blog',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
@@ -60,32 +60,32 @@ const siteConfig: SiteConfig = {
         }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contacto',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        }
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
+        // {
+        //     text: 'Contacto',
+        //     href: '/contact'
+        // },
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // }
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+        // {
+        //     text: 'Dribbble',
+        //     href: 'https://dribbble.com/'
+        // },
+        // {
+        //     text: 'Instagram',
+        //     href: 'https://instagram.com/'
+        // },
+        // {
+        //     text: 'X/Twitter',
+        //     href: 'https://twitter.com/'
+        // }
     ],
     hero: {
         title: 'Hi There & Welcome to My Corner of the Web!',
@@ -95,10 +95,10 @@ const siteConfig: SiteConfig = {
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
+            // {
+            //     text: 'Get in Touch',
+            //     href: '/contact'
+            // }
         ]
     },
     subscribe: {

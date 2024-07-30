@@ -54,15 +54,15 @@ const { Content } = await post.render();
             {
                 tags.length > 0 && (
                     <div class="flex flex-wrap gap-x-5 gap-y-1 text-sm">
-                        {tags.map((tag) => (
-                            <a class="text-main hover:underline" href={`/tags/${slugify(tag)}`}>
+                        {tags.map((tag: string) => (
+                            <a class="text-main hover:underline" href={`/etiquetas/${slugify(tag)}`}>
                                 #{tag}
                             </a>
                         ))}
                     </div>
                 )
             }
-            <Button class="copy-url-button" aria-label="Copy link" data-url={href} data-tooltip-default="Copy link" data-tooltip-success="Copied">Compartir</Button>
+            <Button class="copy-url-button" aria-label="Copiar link" data-url={href} data-tooltip-default="Copiar link" data-tooltip-success="Copiado">Compartir</Button>
         </div>
     </article>
     {
@@ -74,7 +74,7 @@ const { Content } = await post.render();
             </div>
         )
     }
-    <Subscribe class="my-16 sm:my-24" />
+    <!-- <Subscribe class="my-16 sm:my-24" /> -->
 </BaseLayout>
 
 <script>
